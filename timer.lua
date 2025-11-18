@@ -2,7 +2,7 @@
 -- --HOW TO USE:--
 -- 1. require the module where you want to use it (need dt aka delta time from love.update)
 -- 2. to create a new timer, use: timer.newTimer("nameOfTimer") (the timer wont start unless its created)
--- 3. to check if the timer has reached a certain time, use: timer.wait for ex. if timer.wait(dt, 2.5, "NameOfTimer") then (if is needed since it returns true or false
+-- 3. to check if the timer has reached a certain time, use: timer.wait for ex. if timer.wait(dt, 2.5, "NameOfTimer") then (if is needed since it returns true or false)
 -- 4 if you want to clear a timer before it reaches the wait time, use: timer.clear("nameOfTimer")
 
 local timer = {}
@@ -35,5 +35,6 @@ end
 
 
 return timer
+
 
 

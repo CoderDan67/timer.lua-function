@@ -1,7 +1,7 @@
 -- timer.lua function created by CoderDan67
 -- --HOW TO USE:--
 -- 1. require the module where you want to use it (need dt aka delta time from love.update)
--- 2. to create a new timer, use: timer.newTimer("nameOfTimer")
+-- 2. to create a new timer, use: timer.newTimer("nameOfTimer") (the timer wont start unless its created)
 -- 3. to check if the timer has reached a certain time, use: timer.wait
 -- 4 if you want to clear a timer before it reaches the wait time, use: timer.clear("nameOfTimer")
 
@@ -35,3 +35,4 @@ end
 
 
 return timer
+
